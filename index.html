@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Seatwork 2</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+    <body>
+        <header>
+            <nav>
+            <button onclick="scrollToSection('education')">Education</button> 
+            <button onclick="scrollToSection('contact-info')">Contact Information</button>
+            <button onclick="scrollToSection('profile')">Profile</button>
+            <button onclick="scrollToSection('skills')">Skills</button>
+            </nav>
+        </header>
+        
+    <section class="hero">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png" alt="">
+        <div class="content"> 
+            <h3>Student of FEU</h3>
+            <h2>Manuel Ramos</h2>
+            <p>Welcome to my portfolio! I'm a student at Far Eastern University Institute of Technology, web developmer and ready to learn more. Join me on my journey as I enhance my skills and work towards becoming a professional in the tech industry</p>
+            <button onclick="scrollToSection('container')">My Resume</button>
+    </div>
+    </section>
+
+    <div id="container" class="container">
+        <h1>My Resume</h1>   
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png" alt="">
+        </section>
+        <section id="contact-info" class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: 202312518@fit.edu.ph</p>
+            <p>Phone: 0966-123-1234</p>
+            <p>Address: 560 Tabigo St., Brgy. Commonwealth, Quezon City</p>
+        </section>
+
+        <section id="profile" class="profile">
+            <h2>Profile</h2>
+            <p>Hi, I'm Manuel Ramos, a web developer currently studying at Far Eastern University Institute of Technology. I have a knowledge of HTML, CSS, and JavaScript, and I can create websites that are both functional and visually appealing. I'm always ready to learn and stay updated with the latest technologies to enhance my skills. My goal is to work on projects that challenge me and allow me to grow as a developer while contributing to a team.</p>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Development: Proficient in HTML, CSS, and JavaScript. Experienced in building responsive and user-friendly websites.</li>
+                <li>Problem-Solving: Adept at troubleshooting issues and finding effective solutions quickly.</li>
+                <li>Team Collaboration: Excellent communication skills and a team player who thrives in collaborative environments.</li>
+                <li>Continuous Learning: Committed to staying updated with the latest web development trends and technologies.</li>
+            </ul>
+        </section>
+
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>Primary</h3>
+                    <p>Manuel L. Quezon Elementary School</p>
+                    <p>30 Adarna St., Quezon City, 1121 Metro Manila</p>
+                    <p>(2011-2017)</p>
+                </li>
+                <li>
+                    <h3>Junior High School</h3>
+                    <p>Jose Rizal University</p>
+                    <p>80 Shaw Blvd., Mandaluyong, 1552 Metro Manila</p>
+                    <p>(2017-2021)</p>
+                </li>
+                <li>
+                    <h3>Senior High School</h3>
+                    <p>Jose Rizal University</p>
+                    <p>80 Shaw Blvd., Mandaluyong, 1552 Metro Manila</p>
+                    <p>(2021-2023)</p>
+                </li>
+                <li>
+                    <h3>College</h3>
+                    <p>Far Eastern University Institute of Technology</p>
+                    <p>Padre Paredes St, Sampaloc, Manila, 1015 Metro Manila</p>
+                    <p>(2023- ____)</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+    </body>
+</html>
